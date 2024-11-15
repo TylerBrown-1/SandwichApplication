@@ -3,5 +3,6 @@ Sandwich (8): wheat bread
 - turkey (meat)
 - american (cheese)
 Toasted
-Drink (medium): spriteChips: bbq
+Drink (medium): sprite
+Chips: bbq
 Total: $4.25

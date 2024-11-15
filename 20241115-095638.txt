@@ -1,0 +1,12 @@
+Receipt for Order:
+Sandwich (12): wrap bread
+- chicken (meat)
+- chicken (extra meat)
+- american (cheese)
+- lettuce (regular topping)
+- onions (regular topping)
+- tomatoes (regular topping)
+- mayo (sauce)
+Toasted
+Drink (medium): sweet teaChips: regular
+Total: $17.0
