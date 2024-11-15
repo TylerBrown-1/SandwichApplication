@@ -1,0 +1,7 @@
+Receipt for Order:
+Sandwich (8): wheat bread
+- turkey (meat)
+- american (cheese)
+Toasted
+Drink (medium): spriteChips: bbq
+Total: $4.25

@@ -1,0 +1,13 @@
+Receipt for Order:
+Sandwich (8): wheat bread
+- chicken (meat)
+- chicken (extra meat)
+- cheddar (cheese)
+- cheddar (extra cheese)
+- lettuce (regular topping)
+- peppers (regular topping)
+- mayo (sauce)
+- ranch (sauce)
+Toasted
+Drink (medium): lemonadeChips: bbq
+Total: $33.0

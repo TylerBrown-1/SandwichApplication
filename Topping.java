@@ -1,11 +1,7 @@
-
-
 public class Topping implements OrderItem{
-    // Topping class represents a topping that can be added to a sandwich
-    class Topping implements OrderItem {
         private String name;
         private double price;
-        private String type; // "meat", "cheese", or "regular"
+        private String type; // "meat", "cheese", "sauce" or "regular"
 
         public Topping(String name, double price, String type) {
             this.name = name;
@@ -23,4 +19,4 @@ public class Topping implements OrderItem{
             return price;
         }
     }
-}
+

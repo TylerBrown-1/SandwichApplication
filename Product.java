@@ -1,5 +1,4 @@
-
-
+// Product class implements OrderItem and provides common functionality
 abstract class Product implements OrderItem{
     protected double price;
 

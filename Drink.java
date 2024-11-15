@@ -15,6 +15,8 @@ public class Drink extends Product{
             price = 2.00;
         } else if (size.equals("Medium")) {
             price = 2.50;
+        }else if (size.equals("Large")) {
+            price = 3.00;
         }
     }
 
