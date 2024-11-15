@@ -5,7 +5,7 @@ public class SandwichApp {
 
     public static void main(String[] args) {
         while (true) {
-            System.out.println("Welcome to Sandwich Shop!");
+            System.out.println("Welcome to Tyler's Sandwich Stand!");
             System.out.println("1) New Order");
             System.out.println("0) Exit");
             int choice = scanner.nextInt();
@@ -77,7 +77,6 @@ public class SandwichApp {
 
         return sandwich;
     }
-
     // Method to create a drink
     private static Drink createDrink() {
         System.out.println("Choose drink size: Small, Medium, Large");
@@ -86,12 +85,10 @@ public class SandwichApp {
         String flavor = scanner.nextLine();
         return new Drink(size, flavor);
     }
-
     // Method to create chips
     private static Chips createChips() {
         System.out.println("Choose chip type: regular, sour cream, bbq");
         String type = scanner.nextLine();
         return new Chips(type);
     }
-
 }

@@ -59,7 +59,7 @@ public class Sandwich extends Product {
     // Method to display and add toppings to the sandwich (including premium toppings and extras)
     public void addToppingsMenu(Scanner scanner) {
         // Add meat toppings
-        System.out.println("Select meat topping: steak, ham, salami, roast beef, chicken, bacon");
+        System.out.println("Select meat: steak, ham, salami, roast beef, chicken, bacon");
         String meat = scanner.nextLine();
         if (isValidMeat(meat)) {
             addTopping(new Topping(meat, getMeatPrice(meat), "meat"));
@@ -95,7 +95,8 @@ public class Sandwich extends Product {
 
         // Add sauces (mayo, mustard, ketchup, etc.)
         String[] sauces = {"mayo", "mustard", "ketchup", "ranch", "thousand island", "vinaigrette"};
-        System.out.println("Select sauces (comma-separated, no spaces):");
+        System.out.println("Select sauces: mayo, mustard, ketchup, ranch, thousand island" +
+                " (comma-separated, no spaces):");
         String sauceChoice = scanner.nextLine();
         for (String sauce : sauces) {
             if (sauceChoice.contains(sauce)) {
